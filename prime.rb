@@ -1,5 +1,5 @@
 def prime?(int)
-  if int < 3
+  if int < 2
     return false
   elsif
     (3..int).to_a.each do |num|
