@@ -6,7 +6,7 @@ def prime?(int)
       if num % int == 0
         return true
       end
-      return false
     end
+    return false
   end
 end
