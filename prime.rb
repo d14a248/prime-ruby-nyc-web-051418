@@ -1,4 +1,5 @@
 def prime?(int)
   if int < 2
-    return FALSE
+    return false
+  else
 end
