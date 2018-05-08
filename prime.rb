@@ -3,7 +3,7 @@ def prime?(int)
     return false
   elsif
     (2..int).to_a.each do |num|
-      if num % int == 0
+      if int % num == 0
         return true
       end
     end
