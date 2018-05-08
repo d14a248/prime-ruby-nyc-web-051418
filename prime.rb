@@ -4,9 +4,9 @@ def prime?(int)
   elsif
     (2..int).to_a.each do |num|
       if num % int == 0
-        return false
+        return true
       end
-      return true
+      return false
     end
   end
 end
